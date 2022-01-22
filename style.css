@@ -175,6 +175,27 @@ ion-icon{
     font-size: 20px;
 }
 
+.postagem-barra-inferior{
+    padding: 17.75px;
+    border: 1px solid #DBDBDB;
+}
+.icones-postagem{
+    display: flex;
+    justify-content: space-between;
+}
+.curtidas-postagem{
+    display: flex;
+    margin-top: 13.44px;
+}
+.curtidas-postagem .imagem-curtidas{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.curtidas-postagem span{
+    font-weight: bold;
+}
+
 /*CONTEUDO LATERAL AS POSTAGENS*/
 .lado-secundario{
     background: rgb(240, 210, 241);
