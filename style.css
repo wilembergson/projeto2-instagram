@@ -1,0 +1,183 @@
+.body{
+   margin: 0;
+   background: #E5E5E5;
+}
+.pagina{
+   font-family: 'Roboto', sans-serif;
+}
+
+/*BARRA SUPERIOR*/
+.barra-superior{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.barra-interna{
+    display: flex;
+    justify-content: space-between;
+    width: 942px;
+}
+.barra-interna textarea{
+    width: 214px;
+}
+.barra-esqueda{
+    display: flex;
+}
+.pesquisa{
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.barra-direita{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+ion-icon{
+    font-size: 25px;
+    color: #262626;
+    margin-right: 10px;
+}
+
+.logo{
+    padding-left: 10px;
+    border-left: 1px solid #DBDBDB;
+}
+
+/*CONTEUDO DA PAGINA PRINCIPAL*/
+
+/*STORIES*/
+.pagina{
+    display: flex;
+    justify-content: center;
+    background: #FAFAFA;
+    width: 100%;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    width: 942px;
+    margin-top: 84px;
+}
+.lado-principal{
+    width: 614px;
+}
+.stories{
+    display: flex;
+    background: #FFFFFF;
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-bottom: 14px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    border: 1px solid #DBDBDB;
+    position: relative;
+    
+}
+.storie-imagens{
+    position: relative;
+    z-index: 0;
+}
+.storie-imagens div{
+    display: flex;
+    justify-content: center;
+}
+
+.borda-storie{
+    width: 66px;
+    border-radius: 33px;
+    margin-right: 14px;
+}
+.imagem-storie{
+    width: 56px;
+    border-radius: 33px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+}
+.nome-storie{
+    width: 66px; 
+    font-size: 12px;
+    margin-top: 5px;
+}
+.seta-stories{
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+    font-size: 25px;
+    color: #bdbcbc;
+    background: #FFFFFF;
+    border-radius: 33px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/*POSTAGENS*/
+.postagem{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+.postagem img{
+    width: 614px;
+}
+.postagem-barra-superior{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #DBDBDB;
+    padding: 15px;
+}
+.direita{
+    display: flex;
+}
+.direita .avatar-postagem{
+    margin-right: 14px;
+    position: relative;
+}
+.direita img{
+    border-radius: 50%;
+}
+.direita .borda-postagem{
+    width: 33px;
+}
+.direita .foto-postagem{
+    width: 27px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+.nome{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+.postagem-barra-superior ion-icon{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/*CONTEUDO LATERAL AS POSTAGENS*/
+.lado-secundario{
+    background: rgb(240, 210, 241);
+    width: 300px;
+}
+
