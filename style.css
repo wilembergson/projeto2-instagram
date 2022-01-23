@@ -4,6 +4,7 @@
 }
 .pagina{
    font-family: 'Roboto', sans-serif;
+   margin: 0;
 }
 
 /*BARRA SUPERIOR*/
@@ -54,6 +55,10 @@ ion-icon{
     border-left: 1px solid #DBDBDB;
 }
 
+.barra-interna-2{
+    display: none;
+}
+
 /*CONTEUDO DA PAGINA PRINCIPAL*/
 
 /*STORIES*/
@@ -70,7 +75,7 @@ ion-icon{
     margin-top: 84px;
 }
 .lado-principal{
-    width: 614px;
+    width: 612px;
 }
 .stories{
     display: flex;
@@ -134,7 +139,7 @@ ion-icon{
     margin-bottom: 60px;
 }
 .postagem img{
-    width: 614px;
+    width: 100%;
 }
 .postagem-barra-superior{
     display: flex;
@@ -276,4 +281,65 @@ ion-icon{
     font-size: 11px;
     margin-top: 18px;
     color: #C7C7C7;
+}
+
+.barra-inferior{
+    display: none;
+}
+/*RESPONSIVIDADE*/
+@media (max-width: 934.9px){
+    .lado-secundario{
+        display: none;
+    }
+    .conteudo{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 613.9px){
+    .barra-interna{
+        display: none;
+    }
+    .barra-interna-2{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .logo{
+        padding-left: 10px;
+        border-left: none;
+    }
+
+    .barra-superior{
+        margin-bottom: 1px;
+    }
+    .stories{
+        background: #FAFAFA;
+        border: none;
+        margin-top: 18px;
+        margin-left: 18px;
+        padding: 0;
+    }
+    .barra-inferior{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 54px;
+        background: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9;
+    }
+    .barra-inferior div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
 }
