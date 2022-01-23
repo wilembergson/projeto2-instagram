@@ -73,6 +73,8 @@ ion-icon{
     justify-content: space-between;
     width: 935px;
     margin-top: 84px;
+    position: relative;
+    z-index: 8;
 }
 .lado-principal{
     width: 612px;
@@ -207,6 +209,11 @@ ion-icon{
     padding-top: 23px;
 }
 
+.sidebar{
+    position: fixed;
+    width: 293px;
+}
+
 .linha1-secundario{
     display: flex;
 }
@@ -286,6 +293,8 @@ ion-icon{
 .barra-inferior{
     display: none;
 }
+
+
 /*RESPONSIVIDADE*/
 @media (max-width: 934.9px){
     .lado-secundario{
@@ -310,7 +319,9 @@ ion-icon{
         padding-left: 10px;
         border-left: none;
     }
-
+    .conteudo{
+        margin-top: 50px;
+    }
     .barra-superior{
         margin-bottom: 1px;
     }
