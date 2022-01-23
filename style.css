@@ -140,6 +140,23 @@ ion-icon{
     border-radius: 3px;
     margin-bottom: 60px;
 }
+.comentario{
+    display: flex;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #DBDBDB;
+}
+.barra-comentario{
+    width: 100%;
+    margin-right: 10px;
+    border: 1px solid #DBDBDB;
+}
+.publicar{
+    color: #98cdec;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 14px;
+}
 .postagem img{
     width: 100%;
 }
@@ -203,6 +220,7 @@ ion-icon{
     font-weight: bold;
 }
 
+/**/
 /*CONTEUDO LATERAL AS POSTAGENS*/
 .lado-secundario{
     width: 293px;
