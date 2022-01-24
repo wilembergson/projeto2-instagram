@@ -148,7 +148,7 @@ ion-icon{
 }
 .barra-comentario{
     width: 100%;
-    margin-right: 10px;
+    margin-right: 20px;
     border: 1px solid #DBDBDB;
 }
 .publicar{
@@ -220,7 +220,6 @@ ion-icon{
     font-weight: bold;
 }
 
-/**/
 /*CONTEUDO LATERAL AS POSTAGENS*/
 .lado-secundario{
     width: 293px;
